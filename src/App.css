@@ -1,9 +1,26 @@
 /* Add styling for your page here */
 
-.App {
-
+h1 {
+    text-align: center;
+    font-size: 5rem;
 }
 
-.BakeryItem {
-  
+* {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.bakeryItem {
+    width: 30rem;
+    margin: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
